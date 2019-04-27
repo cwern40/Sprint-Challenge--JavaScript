@@ -13,9 +13,7 @@ const trex = {
   weight: '7000kg',
   length: '12m',
   period: 'Late Cretaceous',
-  roar: function() {
-    return 'RAWERSRARARWERSARARARRRR!';
-  }
+  roar: () => 'RAWERSRARARWERSARARARRRR!'
 };
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
