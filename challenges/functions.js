@@ -6,9 +6,7 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
-function consume(a, b, cb) {
-  return cb(a, b);
-}
+let consume = (a, b, cb) => cb(a, b);
 
 // consume('hello', 'bye', function(salutation) {
 //   console.log(salutation);
@@ -19,17 +17,11 @@ function consume(a, b, cb) {
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-function add(a, b) {
-  return a + b;
-}
+let add = (a, b) => a + b;
 
-function multiply(a, b) {
-  return a * b;
-}
+let multiply = (a, b) => a * b;
 
-function greeting(first, last) {
-  return `Hello ${first} ${last}, nice to meet you!`;
-}
+let greeting = (first, last) => `Hello ${first} ${last}, nice to meet you!`;
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
