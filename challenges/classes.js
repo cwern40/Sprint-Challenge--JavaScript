@@ -32,7 +32,7 @@ class CubeMaker extends CuboidMakers {
         this.color = prop.color;
     }
     properties () {
-        return `The cuboid's color is ${this.color} with a volueme of ${this.volume()} and a surface area of ${this.surfaceArea()}`;
+        return `The cuboid's color is ${this.color} with a volume of ${this.volume()} and a surface area of ${this.surfaceArea()}`;
     }
 }
 
